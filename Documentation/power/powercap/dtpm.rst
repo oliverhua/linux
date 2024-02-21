@@ -79,7 +79,7 @@ Each node have a weight on a 2^10 basis reflecting the percentage of power consu
    |
    |-- pkg (w=538)
    |    |
-   |    |-- pd0 (w=231)
+   |    |-- pd0 (w=230)
    |    |
    |    `-- pd1 (w=794)
    |
@@ -93,7 +93,7 @@ When a power limitation is applied to a node, then it is distributed along the c
    |
    |-- pkg (w=538) --> power_limit = 1681mW
    |    |
-   |    |-- pd0 (w=231) --> power_limit = 378mW
+   |    |-- pd0 (w=230) --> power_limit = 378mW
    |    |
    |    `-- pd1 (w=794) --> power_limit = 1303mW
    |
